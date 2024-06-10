@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
+
+#fondo{
+    background-image: url('images/DALL·E\ 2024-06-10\ 08.45.01\ -\ A\ cozy\ restaurant\ interior\ with\ multiple\ tables\ arranged\ neatly.\ The\ tables\ are\ covered\ with\ white\ tablecloths\,\ set\ with\ plates\,\ silverware\,\ and\ glass.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    position: fixed;
+}
+
+.seleccionado{
+    background-color: #1e40af;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 1vh;
+    padding-bottom: 0.2vh;
+    background-color: #082f49;
+}
+
+nav{
+    display: flex;
+    gap: 1vw;
+}
+
+button{
+    box-sizing: border-box;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0369a1;
+    border: none;
+    color:#e4e4e7;
+    padding: 1vh;
+    border-radius: 2px;
+    width: 8vw;
+    min-width: 120px;
+    text-wrap: nowrap;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #082f49;
+    align-self: center;
+    width: 50%;
+    gap: 10vh;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 325px;
+    color: #e4e4e7;
+    border-radius: 8px;
+    height: max(1350px,130vh);
+}
+
+h1{
+    background-color: #0369a1;
+    border: 5px solid white;
+    width: 38vw;
+    min-width: 320px;
+    font-size: xx-large;
+    text-align: center;
+    text-wrap:nowrap;
+    border-radius: 8px;
+    height: 50px;
+    min-height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content>div>div{
+    border: 5px solid white;
+    background-color: #0369a1;
+    text-align: center;
+    width: 30vw;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    font-size: large;
+}
+
+
+
+#content>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 4vh;
+    width: 10vw;
+    min-width: 330px;
+    width: 30vw;
+    height: 100vh;
+}
+
+.imagen{
+    border: 1px solid;
+    border-radius: 9px;
+    color: #e4e4e7;
+}
